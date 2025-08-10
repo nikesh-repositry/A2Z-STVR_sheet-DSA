@@ -1,1 +1,37 @@
 ------------------------------------------recursion notes
+what is recursion?
+= it is a fundamental concept of dsa where a function solves a problem by calling itself with 
+smaller number of tasks of the same problem. it is like breaking a one big problem into many
+smallers and solving all until a specified condition is reached. 
+  recursion relies on a memory in data structure named stack that tracks function calls. each 
+recursive call pushes a new frame onto the stack and when the base case is hit the stack unwinds 
+and returns results back up.
+
+why to use recursion in dsa?
+= simplicity, use divide and conquer strategy, backtraks.
+
+how it does works?
+= first the base case is provided which means the termination condition that stops the recursion 
+and without it program goes to infinite which ultimately leading to stack overflow (the call stack
+run out of memory its  a demerit of recurison) 
+  second is recursive case this is where the function calls itself with modifies parameters and
+reducing the problem size towards the base case. 
+  third when the function calls itself , the current execution pauses and a new call starts. and
+each call has its own local variables and parameters. once the base case returns privious calls 
+resume and fouth combining results.
+
+types of recursion?
+= direct recursion- function calls itself
+  indirect recursionn- function call each other in a cycle
+  tail recursion- the recursive call is the  last action 
+  head recursion- operations happen before the recursive call
+  tree recursion- multiple recursive calls in one execution path
+  linear recurison- single recursive call per execution step
+  nested recursion- function calls itself within its own recursive call
+
+application of recursion?
+= tree traversals, graph traversals, sorting and searching algo, dynamic programmin, parsing
+
+disadvantages?
+= stack overflow, performance issues, complex debugging
+
