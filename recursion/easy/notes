@@ -1,4 +1,4 @@
-------------------------------------------recursion notes
+7------------------------------------------recursion notes
 what is recursion?------------------------------------------------------------------------------------------------
 = it is a fundamental concept of dsa where a function solves a problem by calling itself with 
 smaller number of tasks of the same problem. it is like breaking a one big problem into many
@@ -32,6 +32,6 @@ types of recursion?-------------------------------------------------------------
 application of recursion?----------------------------------------------------------------------------------------
 = tree traversals, graph traversals, sorting and searching algo, dynamic programmin, parsing
 
-disadvantages?---------------------------------------------------------------------------------------------------
+disadvantages?----------------------------------------------------------------------------------------------------
 = stack overflow, performance issues, complex debugging
 
