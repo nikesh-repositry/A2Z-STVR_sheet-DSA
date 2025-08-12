@@ -1,5 +1,5 @@
 ------------------------------------------recursion notes
-what is recursion?-----------------------------------------------------------------------------------------------
+what is recursion?------------------------------------------------------------------------------------------------
 = it is a fundamental concept of dsa where a function solves a problem by calling itself with 
 smaller number of tasks of the same problem. it is like breaking a one big problem into many
 smallers and solving all until a specified condition is reached. 
