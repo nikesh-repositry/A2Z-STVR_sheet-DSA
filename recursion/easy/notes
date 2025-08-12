@@ -10,7 +10,7 @@ and returns results back up.
 why to use recursion in dsa?-------------------------------------------------------------------------------------
 = simplicity, use divide and conquer strategy, backtraks.
 
-how it does works?-----------------------------------------------------------------------------------------------
+how it does works?------------------------------------------------------------------------------------------------
 = first the base case is provided which means the termination condition that stops the recursion 
 and without it program goes to infinite which ultimately leading to stack overflow (the call stack
 run out of memory its  a demerit of recurison) 
