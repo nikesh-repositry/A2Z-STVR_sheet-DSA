@@ -4,5 +4,45 @@
  java.lang package which is imported automatically. java uses unicode UTF-16 for characters.
  =strings are IMMUTABLE means that once it is created then that value can not be changed and this
  immutability ensures thread safety and enables optimizations like string pooling.
+
+>string methods-
+ there are 50+ methods all with different functions and they can be group by...
+ Basic Creation and Information
+ length(): Returns the number of characters in the string.
+
+ isEmpty(): Checks if the string is empty (length is 0).
+
+ charAt(int index): Returns the character at a specific position (index) in the string. The first character is at index 0.
+
+ Comparison
+ equals(Object anObject): Checks if one string is the same as another. It compares the content, not the memory location.
+
+ equalsIgnoreCase(String anotherString): Same as equals(), but it ignores differences in case (e.g., "Hello" and "hello" are considered equal).
+ compareTo(String anotherString): Compares two strings lexicographically (based on dictionary order). It returns a negative number if the string comes before the other, a positive number if it comes after, and zero if they are the same.
+ startsWith(String prefix): Checks if the string begins with a specific prefix.
+ endsWith(String suffix): Checks if the string ends with a specific suffix.
+
+ Searching
+ indexOf(int ch): Returns the index of the first occurrence of a character.
+ indexOf(String str): Returns the index of the first occurrence of a substring.
+ lastIndexOf(int ch): Returns the index of the last occurrence of a character.
+ lastIndexOf(String str): Returns the index of the last occurrence of a substring.
+
+ Modification and Manipulation
+ concat(String str): Joins two strings together. You can also use the + operator for this.
+ substring(int beginIndex): Returns a new string that is a part of the original, starting from a given index to the end.
+ substring(int beginIndex, int endIndex): Returns a new string from a starting index up to (but not including) an ending index.
+ replace(char oldChar, char newChar): Replaces all occurrences of a character with a new one.
+ replace(CharSequence target, CharSequence replacement): Replaces all occurrences of a substring with another.
+ trim(): Returns a new string with leading and trailing whitespace removed.
+ toLowerCase(): Returns a new string with all characters converted to lowercase.
+ toUpperCase(): Returns a new string with all characters converted to uppercase.
+ split(String regex): Divides the string into an array of substrings based on a separator (regex).
+ join(CharSequence delimiter, CharSequence... elements): Creates a new string by joining a collection of strings with a specified delimiter.
+
+ Conversion
+ toCharArray(): Converts the string into a character array (char[]).
+ getBytes(): Converts the string into a byte array.
+ valueOf(...): A static method that can convert various data types (like int, double, char[]) into their string representation.
  
  
