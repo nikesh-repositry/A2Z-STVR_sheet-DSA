@@ -1,1 +1,8 @@
-
+==============================================STRINGS
+>definition-
+ string is a sequence of characters and in java it is represented by the String class from the 
+ java.lang package which is imported automatically. java uses unicode UTF-16 for characters.
+ =strings are IMMUTABLE means that once it is created then that value can not be changed and this
+ immutability ensures thread safety and enables optimizations like string pooling.
+ 
+ 
