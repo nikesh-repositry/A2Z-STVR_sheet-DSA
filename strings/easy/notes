@@ -18,7 +18,8 @@
  equals(Object anObject): Checks if one string is the same as another. It compares the content, not the memory location.
 
  equalsIgnoreCase(String anotherString): Same as equals(), but it ignores differences in case (e.g., "Hello" and "hello" are considered equal).
- compareTo(String anotherString): Compares two strings lexicographically (based on dictionary order). It returns a negative number if the string comes before the other, a positive number if it comes after, and zero if they are the same.
+ compareTo(String anotherString): Compares two strings lexicographically (based on dictionary order). It returns a negative number 
+ if the string comes before the other, a positive number if it comes after, and zero if they are the same.
  startsWith(String prefix): Checks if the string begins with a specific prefix.
  endsWith(String suffix): Checks if the string ends with a specific suffix.
 
