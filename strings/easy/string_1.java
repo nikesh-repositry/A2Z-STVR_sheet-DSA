@@ -25,5 +25,10 @@ public class string_1 {
         System.out.println(str4);
         System.out.println(str5);
 
+        //to check the type of variable
+        int x = 5;
+        System.out.println(((Object)x).getClass().getName()); // Outputs "java.lang.Integer"
+
     }
 }
+
