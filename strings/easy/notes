@@ -52,4 +52,8 @@
  reason is that strings are immutable which would create many dublicates which would consumes more memory space
  interning reduces memory usage and speeds up comparisons.
  JVM managed area for storing unique string value but it is heap from java7+
+ >====it works in two ways
+ first is when a string is created "hello" using string literals then it is interned automatically by JVM at compile time
+ and then if another string with same literal created then both will reference the same object in the string pool.
+ second is manually interning using intern() method
 
