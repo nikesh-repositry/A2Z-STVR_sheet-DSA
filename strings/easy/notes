@@ -46,4 +46,7 @@
  getBytes(): Converts the string into a byte array.
  valueOf(...): A static method that can convert various data types (like int, double, char[]) into their string representation.
  
- 
+
+>String interning--------------------------------------------------------------------------------------------------
+ string interning in java ensures that only one copy of each distinct string value exists in the string pool
+
