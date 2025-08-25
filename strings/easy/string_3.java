@@ -1,3 +1,4 @@
+//program to understand .equal() method and string interning
 package ONE_STRINGS;
 
 public class string_3 {
@@ -13,3 +14,6 @@ public class string_3 {
         System.out.println(s1.equals(s3)); // true (same content)
     }
 }
+
+//the .equals() method only checks the content but == checks the memory reference too
+
