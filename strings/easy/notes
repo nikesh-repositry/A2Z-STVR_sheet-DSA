@@ -49,4 +49,7 @@
 
 >String interning--------------------------------------------------------------------------------------------------
  string interning in java ensures that only one copy of each distinct string value exists in the string pool
+ reason is that strings are immutable which would create many dublicates which would consumes more memory space
+ interning reduces memory usage and speeds up comparisons.
+ JVM managed area for storing unique string value but it is heap from java7+
 
