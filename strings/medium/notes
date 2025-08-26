@@ -1,1 +1,10 @@
-
+========================================================STRINGS
+=>STRING BUILDER
+ stringbuilder is a class in java.lang package used to create and manipulate mutable sequences of 
+ characters.
+ >need?= while using string class which is immutable and creates a new object for every modification
+ stringbuilder modifies its internal character array in place, making it faster and more memory
+ efficient for string operations.
+ >characteristics?= it is mutable without creating new objects, not thread safe like stringbuffer
+ >working?= stringbuilder maintains a char[] array to store characters. it has a capacity and length
+ but if you append more characters than the current capacity then it automatically resizes the array.
